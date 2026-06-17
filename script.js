@@ -1,5 +1,5 @@
 /* ============================================================
-   PRISTINE UNISEX SALON — interactions & animations
+   MARVELOUS UNISEX SALON — interactions & animations
    ============================================================ */
 (function () {
   'use strict';
