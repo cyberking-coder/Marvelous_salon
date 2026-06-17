@@ -1,5 +1,5 @@
 /* ============================================================
-   THE HAIR SPACE — interactions & animations
+   PRISTINE UNISEX SALON — interactions & animations
    ============================================================ */
 (function () {
   'use strict';

@@ -1,9 +1,9 @@
-# The Hair Space — Premium Salon Website
+# Pristine Unisex Salon — Premium Salon Website
 
-An award-winning style, single-page website for **The Hair Space**, a premium hair & beauty
+An award-winning style, single-page website for **Pristine Unisex Salon**, a premium hair & beauty
 studio in Baner, Pune. Built as a fast, dependency-free static site with refined motion design.
 
-![The Hair Space](https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1200&auto=format&fit=crop)
+![Pristine Unisex Salon](https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1200&auto=format&fit=crop)
 
 ## Highlights
 
@@ -12,7 +12,7 @@ studio in Baner, Pune. Built as a fast, dependency-free static site with refined
 - **Premium motion** — preloader, scroll-reveal with staggered timing, animated stat counters,
   a custom blend-mode cursor, 3D tilt on imagery, and hover micro-interactions throughout.
 - **Real salon content** — services, pricing, genuine Google reviews (4.7★ / 166), address,
-  hours and an embedded map for The Hair Space, Baner.
+  hours and an embedded map for Pristine Unisex Salon, Baner.
 - **Sections** — Hero · About · Services · Luxe Spa Duo feature · Shop · 35% promo banner ·
   Reviews · Contact / Map · Footer.
 - **Responsive & accessible** — mobile drawer nav, fluid `clamp()` typography, and full
