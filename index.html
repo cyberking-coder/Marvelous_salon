@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Hair Space — a premium hair & beauty salon in Baner, Pune. Precision cuts, luxe hair spa, colour, botox treatments and curated self-care." />
+  <title>The Hair Space — Premium Salon & Beauty Studio, Pune</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <span class="preloader__text">THE HAIR SPACE</span>
+      <div class="preloader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follow" id="cursorFollow"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">✦</span>
+        <span class="nav__logo-text">The Hair Space</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#shop" class="nav__link">Shop</a>
+        <a href="#reviews" class="nav__link">Reviews</a>
+      </nav>
+      <a href="#contact" class="nav__cta">Book Now</a>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__bg" data-parallax="0.25"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Baner · Pune · Est. Beauty Studio</p>
+      <h1 class="hero__title">
+        <span class="hero__line"><span>The Hair</span></span>
+        <span class="hero__line hero__line--italic"><span>Space</span></span>
+      </h1>
+      <p class="hero__sub reveal">Sculpting stories, strand by strand — where your style unfolds.</p>
+      <div class="hero__actions reveal">
+        <a href="#services" class="btn btn--solid">Explore Services</a>
+        <a href="#contact" class="btn btn--ghost">Visit the Salon</a>
+      </div>
+    </div>
+    <div class="hero__rating reveal">
+      <div class="hero__stars">★★★★★</div>
+      <div class="hero__rating-meta">
+        <strong>4.7</strong>
+        <span>166 Google reviews</span>
+      </div>
+    </div>
+    <div class="hero__marquee">
+      <div class="marquee__track">
+        <span>Haircut</span><span>✦</span><span>Hair Spa</span><span>✦</span><span>Colour</span><span>✦</span><span>Botox Treatment</span><span>✦</span><span>Facial</span><span>✦</span><span>Waxing</span><span>✦</span><span>Head Massage</span><span>✦</span>
+        <span>Haircut</span><span>✦</span><span>Hair Spa</span><span>✦</span><span>Colour</span><span>✦</span><span>Botox Treatment</span><span>✦</span><span>Facial</span><span>✦</span><span>Waxing</span><span>✦</span><span>Head Massage</span><span>✦</span>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down">
+      <span class="hero__scroll-dot"></span>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="about__grid">
+      <div class="about__media reveal-up">
+        <div class="about__img about__img--1" data-tilt></div>
+        <div class="about__img about__img--2" data-tilt></div>
+        <div class="about__badge">
+          <span class="about__badge-num">100%</span>
+          <span class="about__badge-label">Crafted with care</span>
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="section__eyebrow reveal-up">Our Philosophy</p>
+        <h2 class="section__title reveal-up">Where skill meets <em>tranquility.</em></h2>
+        <p class="about__lead reveal-up">
+          The Hair Space is a haven of self-care in the heart of Baner. From precision
+          haircuts to revitalising hair spa rituals, every service is meticulously designed
+          to elevate your unique beauty and leave you refreshed.
+        </p>
+        <p class="about__body reveal-up">
+          Step into our space where talented hands guide you on a journey to confident,
+          effortless style. Whether it's a fresh colour, a nourishing botox treatment or a
+          moment of calm, your transformation begins right here.
+        </p>
+        <div class="about__stats">
+          <div class="about__stat reveal-up">
+            <span class="counter" data-target="166">0</span><span>+</span>
+            <p>Happy reviews</p>
+          </div>
+          <div class="about__stat reveal-up">
+            <span class="counter" data-target="20">0</span><span>+</span>
+            <p>Signature treatments</p>
+          </div>
+          <div class="about__stat reveal-up">
+            <span class="counter" data-target="10">0</span><span>pm</span>
+            <p>Open till, daily</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services section" id="services">
+    <div class="section__head">
+      <p class="section__eyebrow reveal-up">Our Treatments</p>
+      <h2 class="section__title reveal-up">A realm of style <em>& rejuvenation.</em></h2>
+    </div>
+    <div class="services__list">
+      <article class="service reveal-up">
+        <span class="service__num">01</span>
+        <div class="service__main">
+          <h3 class="service__name">Precision Haircut & Styling</h3>
+          <p class="service__desc">Clean, precise cuts and sharp shaping tailored to your face and lifestyle.</p>
+        </div>
+        <span class="service__price">from ₹500</span>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal-up">
+        <span class="service__num">02</span>
+        <div class="service__main">
+          <h3 class="service__name">Luxe Hair Spa</h3>
+          <p class="service__desc">A nourishing, salon-like indulgence that leaves hair irresistibly soft.</p>
+        </div>
+        <span class="service__price">from ₹1200</span>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal-up">
+        <span class="service__num">03</span>
+        <div class="service__main">
+          <h3 class="service__name">Colour & Highlights</h3>
+          <p class="service__desc">Expert colour by our skilled stylists — exactly the shade you imagined.</p>
+        </div>
+        <span class="service__price">from ₹1500</span>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal-up">
+        <span class="service__num">04</span>
+        <div class="service__main">
+          <h3 class="service__name">Botox & Smoothing Treatments</h3>
+          <p class="service__desc">Restore strength, shine and silky smoothness to tired strands.</p>
+        </div>
+        <span class="service__price">from ₹2500</span>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal-up">
+        <span class="service__num">05</span>
+        <div class="service__main">
+          <h3 class="service__name">Facials & Skin Care</h3>
+          <p class="service__desc">Relaxing, glow-restoring facials crafted for radiant, healthy skin.</p>
+        </div>
+        <span class="service__price">from ₹800</span>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal-up">
+        <span class="service__num">06</span>
+        <div class="service__main">
+          <h3 class="service__name">Waxing & Head Massage</h3>
+          <p class="service__desc">Smooth, gentle waxing and a genuinely relaxing, unrushed massage.</p>
+        </div>
+        <span class="service__price">from ₹300</span>
+        <span class="service__arrow">→</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- Feature / Spa Duo -->
+  <section class="feature section">
+    <div class="feature__card reveal-up">
+      <div class="feature__media" data-parallax="0.12"></div>
+      <div class="feature__body">
+        <p class="section__eyebrow">Introducing our</p>
+        <h2 class="feature__title">Luxe Hair <em>Spa Duo</em></h2>
+        <p class="feature__text">
+          Transform your routine into a salon-like ritual. Infused with nourishing botanicals
+          and captivating scents, this dynamic duo pampers your senses and leaves hair
+          beautifully styled — the ultimate hair spa experience at home.
+        </p>
+        <a href="#shop" class="btn btn--solid">Shop the Duo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop -->
+  <section class="shop section" id="shop">
+    <div class="section__head">
+      <p class="section__eyebrow reveal-up">Shop at The Hair Space</p>
+      <h2 class="section__title reveal-up">Curated <em>self-care.</em></h2>
+      <p class="shop__intro reveal-up">Premium, thoughtfully crafted hair-care to elevate your daily ritual.</p>
+    </div>
+    <div class="shop__grid">
+      <article class="product reveal-up">
+        <div class="product__img product__img--brush">
+          <span class="product__tag">Bestseller</span>
+        </div>
+        <div class="product__info">
+          <h3>GlamourGlide Hairbrush</h3>
+          <span class="product__price">₹899</span>
+        </div>
+        <button class="product__add">Add to bag</button>
+      </article>
+      <article class="product reveal-up">
+        <div class="product__img product__img--mask">
+          <span class="product__tag">New</span>
+        </div>
+        <div class="product__info">
+          <h3>HydraLocks Intensive Mask</h3>
+          <span class="product__price">₹1,299</span>
+        </div>
+        <button class="product__add">Add to bag</button>
+      </article>
+      <article class="product reveal-up">
+        <div class="product__img product__img--serum"></div>
+        <div class="product__info">
+          <h3>LuxeLocks Hair Serum</h3>
+          <span class="product__price">₹1,499</span>
+        </div>
+        <button class="product__add">Add to bag</button>
+      </article>
+    </div>
+
+    <!-- Promo banner -->
+    <div class="promo reveal-up">
+      <div class="promo__marquee">
+        <div class="marquee__track marquee__track--slow">
+          <span>35% OFF</span><span>★</span><span>35% OFF</span><span>★</span><span>35% OFF</span><span>★</span><span>35% OFF</span><span>★</span>
+          <span>35% OFF</span><span>★</span><span>35% OFF</span><span>★</span><span>35% OFF</span><span>★</span><span>35% OFF</span><span>★</span>
+        </div>
+      </div>
+      <div class="promo__body">
+        <p class="promo__small">Limited Time!</p>
+        <h3 class="promo__title">Enjoy 35% Off</h3>
+        <p class="promo__text">Use code <strong>STYLE35</strong> at checkout. Unleash your stylish radiance today.</p>
+        <a href="#contact" class="btn btn--solid">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews section" id="reviews">
+    <div class="section__head">
+      <p class="section__eyebrow reveal-up">Loved by Pune</p>
+      <h2 class="section__title reveal-up">4.7 ★ · 166 <em>reviews.</em></h2>
+    </div>
+    <div class="reviews__grid">
+      <figure class="review reveal-up">
+        <div class="review__stars">★★★★★</div>
+        <blockquote>I got my hair colour done by Vedanti and I'm extremely happy with the results! Very skilled, professional, and did the work perfectly — exactly how I wanted it.</blockquote>
+        <figcaption>— Google Review · 2 months ago</figcaption>
+      </figure>
+      <figure class="review reveal-up">
+        <div class="review__stars">★★★★★</div>
+        <blockquote>Great experience overall. The haircut was clean and precise, the beard shaping sharp, and the massage genuinely relaxing — not rushed. Shiv clearly knows his craft.</blockquote>
+        <figcaption>— Gaurav V. · 5 months ago</figcaption>
+      </figure>
+      <figure class="review reveal-up">
+        <div class="review__stars">★★★★★</div>
+        <blockquote>Mr. Vinod turned out to be a blessing in disguise — I got a very refreshing haircut and look. The staff was professional and the atmosphere very relaxing.</blockquote>
+        <figcaption>— Archana S. · Local Guide</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="contact__inner">
+      <div class="contact__text">
+        <p class="section__eyebrow reveal-up">Visit Us</p>
+        <h2 class="section__title reveal-up">Begin your <em>transformation.</em></h2>
+        <p class="contact__lead reveal-up">Walk in or book ahead — our team can't wait to welcome you.</p>
+        <ul class="contact__details">
+          <li class="reveal-up"><span>Address</span>Shop No 17, Treza Building, opp. Bellacasa Society, near Mohan Nagar, Baner, Pune, Maharashtra 411021</li>
+          <li class="reveal-up"><span>Phone</span><a href="tel:09309317576">093093 17576</a></li>
+          <li class="reveal-up"><span>Hours</span>Open daily · Closes 10:00 PM</li>
+        </ul>
+        <div class="contact__actions reveal-up">
+          <a href="tel:09309317576" class="btn btn--solid">Call to Book</a>
+          <a href="https://maps.google.com/?q=The+Hair+Space+Baner+Pune" target="_blank" rel="noopener" class="btn btn--ghost">Get Directions</a>
+        </div>
+      </div>
+      <div class="contact__map reveal-up">
+        <iframe
+          title="The Hair Space location"
+          src="https://www.google.com/maps?q=The+Hair+Space+Baner+Pune&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__top">
+      <h2 class="footer__brand">The Hair Space</h2>
+      <p class="footer__tag">थे हेयर स्पेस · Baner, Pune</p>
+    </div>
+    <div class="footer__bottom">
+      <nav class="footer__links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#shop">Shop</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> The Hair Space. Crafted with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
