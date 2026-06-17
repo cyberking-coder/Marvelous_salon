@@ -14,7 +14,8 @@
   --line: rgba(26,24,20,0.12);
   --line-light: rgba(255,255,255,0.16);
 
-  --serif: 'Cormorant Garamond', Georgia, serif;
+  --serif: 'Playfair Display', Georgia, serif;       /* premium display serif */
+  --serif-soft: 'Cormorant Garamond', Georgia, serif; /* light, elegant body serif */
   --sans: 'Jost', 'Helvetica Neue', sans-serif;
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -185,8 +186,9 @@ em { font-style: italic; color: var(--gold); }
   color: var(--gold-bright); margin-bottom: 1.5rem;
 }
 .hero__title {
-  font-family: var(--serif); font-weight: 400;
-  font-size: clamp(3.5rem, 13vw, 11rem); line-height: .92; letter-spacing: -.01em;
+  font-family: var(--serif); font-weight: 500;
+  font-size: clamp(3.2rem, 11vw, 9.5rem); line-height: .98; letter-spacing: -.015em;
+  color: #fdfaf4; text-shadow: 0 4px 40px rgba(0,0,0,.5);
 }
 .hero__line { display: block; overflow: hidden; }
 .hero__line span {
@@ -197,9 +199,9 @@ em { font-style: italic; color: var(--gold); }
 .hero__line--italic span { font-style: italic; color: var(--gold-bright); padding-left: .15em; }
 @keyframes rise { to { transform: translateY(0); } }
 .hero__sub {
-  font-family: var(--serif); font-size: clamp(1.1rem, 2.5vw, 1.6rem);
-  font-weight: 300; font-style: italic; margin: 1.6rem 0 2.4rem; max-width: 30ch;
-  color: rgba(255,255,255,.9);
+  font-family: var(--serif-soft); font-size: clamp(1.2rem, 2.6vw, 1.7rem);
+  font-weight: 400; font-style: italic; margin: 1.6rem 0 2.4rem; max-width: 32ch;
+  color: rgba(255,255,255,.92); text-shadow: 0 2px 18px rgba(0,0,0,.45);
 }
 .hero__actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 .hero__actions .btn--solid { background: var(--paper); color: var(--ink); }
@@ -281,7 +283,7 @@ em { font-style: italic; color: var(--gold); }
 @keyframes spin-badge { to { transform: rotate(360deg); } }
 .about__badge-num { font-family: var(--serif); font-size: 1.8rem; }
 .about__badge-label { font-size: .6rem; letter-spacing: .15em; text-transform: uppercase; opacity: .8; }
-.about__lead { font-family: var(--serif); font-size: clamp(1.3rem, 2.4vw, 1.7rem); font-weight: 300; margin: 1.6rem 0 1.2rem; }
+.about__lead { font-family: var(--serif-soft); font-size: clamp(1.3rem, 2.4vw, 1.7rem); font-weight: 400; margin: 1.6rem 0 1.2rem; }
 .about__body { color: var(--ink-soft); margin-bottom: 2.4rem; }
 .about__stats { display: flex; gap: clamp(1.5rem, 4vw, 3rem); flex-wrap: wrap; }
 .about__stat { font-family: var(--serif); }
@@ -380,14 +382,14 @@ em { font-style: italic; color: var(--gold); }
 }
 .review:hover { transform: translateY(-6px); }
 .review__stars { color: var(--gold); letter-spacing: .12em; margin-bottom: 1rem; }
-.review blockquote { font-family: var(--serif); font-size: 1.2rem; font-weight: 300; line-height: 1.5; }
+.review blockquote { font-family: var(--serif-soft); font-size: 1.3rem; font-weight: 400; line-height: 1.5; }
 .review figcaption { margin-top: 1.4rem; font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
 
 /* ============================================================
    Contact
    ============================================================ */
 .contact__inner { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
-.contact__lead { font-family: var(--serif); font-size: 1.3rem; font-weight: 300; margin: 1.2rem 0 2rem; }
+.contact__lead { font-family: var(--serif-soft); font-size: 1.4rem; font-weight: 400; margin: 1.2rem 0 2rem; }
 .contact__details { list-style: none; margin-bottom: 2.4rem; }
 .contact__details li { padding: 1.1rem 0; border-top: 1px solid var(--line); }
 .contact__details li:last-child { border-bottom: 1px solid var(--line); }
